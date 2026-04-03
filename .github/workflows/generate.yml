@@ -25,6 +25,8 @@ jobs:
         run: cargo binstall --no-confirm rkan
 
       - name: Run rkan generate
+        env:
+          GITHUB_TOKEN: ${{ secrets.RKAN_GH_TOKEN }}
         run: rkan generate -j 4
 
       - name: Push changes
