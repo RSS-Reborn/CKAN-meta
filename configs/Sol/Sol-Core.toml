@@ -45,3 +45,6 @@ Sol-KuiperBelt = "*"
 
 [conflicts]
 RealSolarSystem = "*"
+RP-1-ExpressInstall-Graphics-High = "*"
+RP-1-ExpressInstall-Graphics-Medium = "*"
+RP-1-ExpressInstall-Graphics-Low = "*"
