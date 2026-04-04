@@ -27,79 +27,88 @@
   ],
   "depends": [
     {
-      "name": "Kopernicus"
+      "name": "Sol-Sun"
     },
     {
       "name": "Sol-JupiterSystem"
     },
     {
-      "name": "Sol-EarthSystem"
-    },
-    {
-      "name": "AdvancedPQSTools"
+      "name": "Sol-Venus"
     },
     {
       "name": "KSCSwitcher"
     },
     {
-      "name": "Sol-KuiperBelt"
+      "name": "BurstPQS"
+    },
+    {
+      "name": "Kopernicus"
+    },
+    {
+      "name": "AdvancedPQSTools"
     },
     {
       "name": "Harmony2"
     },
     {
-      "name": "ParallaxContinued-KTL"
+      "name": "KSPTextureLoader"
     },
     {
       "name": "KSPBurst"
     },
     {
-      "name": "Sol-Mercury"
-    },
-    {
-      "name": "Sol-UranusSystem"
-    },
-    {
-      "name": "Sol-Launchsites"
-    },
-    {
-      "name": "Sol-NeptuneSystem"
-    },
-    {
-      "name": "KSPTextureLoader"
-    },
-    {
-      "name": "Sol-Visuals"
-    },
-    {
-      "name": "TextureReplacer"
-    },
-    {
-      "name": "Sol-AsteroidBelt"
+      "name": "ParallaxContinued-KTL"
     },
     {
       "name": "Sol-Configs"
     },
     {
+      "name": "Sol-Launchsites"
+    },
+    {
       "name": "Sol-MarsSystem"
     },
     {
-      "name": "Sol-Venus"
+      "name": "Sol-NeptuneSystem"
     },
     {
-      "name": "Sol-SaturnSystem"
+      "name": "Sol-UranusSystem"
     },
     {
-      "name": "BurstPQS"
+      "name": "Sol-Visuals"
     },
     {
       "name": "KSPCommunityFixes"
     },
     {
-      "name": "Sol-Sun"
+      "name": "Sol-EarthSystem"
+    },
+    {
+      "name": "Sol-SaturnSystem"
+    },
+    {
+      "name": "Sol-AsteroidBelt"
+    },
+    {
+      "name": "Sol-Mercury"
+    },
+    {
+      "name": "TextureReplacer"
+    },
+    {
+      "name": "Sol-KuiperBelt"
     }
   ],
   "conflicts": [
+    {
+      "name": "RP-1-ExpressInstall-Graphics-High"
+    },
+    {
+      "name": "RP-1-ExpressInstall-Graphics-Low"
+    },
+    {
+      "name": "RP-1-ExpressInstall-Graphics-Medium"
+    },
     {
       "name": "RealSolarSystem"
     }
