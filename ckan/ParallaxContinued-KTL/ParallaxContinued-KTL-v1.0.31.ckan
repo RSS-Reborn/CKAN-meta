@@ -26,25 +26,25 @@
   ],
   "depends": [
     {
-      "name": "ParallaxContinued-Planet-Textures"
-    },
-    {
-      "name": "ParallaxContinued-Terrain-Textures"
-    },
-    {
-      "name": "KSPTextureLoader"
-    },
-    {
-      "name": "ParallaxContinued-Scatter-Textures"
-    },
-    {
-      "name": "KSPBurst"
+      "name": "ModuleManager"
     },
     {
       "name": "Kopernicus"
     },
     {
-      "name": "ModuleManager"
+      "name": "KSPTextureLoader"
+    },
+    {
+      "name": "ParallaxContinued-Planet-Textures"
+    },
+    {
+      "name": "ParallaxContinued-Scatter-Textures"
+    },
+    {
+      "name": "ParallaxContinued-Terrain-Textures"
+    },
+    {
+      "name": "KSPBurst"
     }
   ],
   "recommends": [
@@ -54,7 +54,7 @@
   ],
   "conflicts": [
     {
-      "name": "Parallax"
+      "name": "Parallax-StockScatterTextures"
     },
     {
       "name": "ParallaxContinued"
@@ -63,7 +63,7 @@
       "name": "Parallax-StockTextures"
     },
     {
-      "name": "Parallax-StockScatterTextures"
+      "name": "Parallax"
     }
   ],
   "install": [

@@ -1,0 +1,48 @@
+{
+  "spec_version": 1,
+  "identifier": "Sol-Configs",
+  "name": "Sol Configs",
+  "abstract": "The next generation of RSS-Reborn",
+  "author": [
+    "ballisticfox",
+    "Charon_S"
+  ],
+  "version": "V0.9.5-1",
+  "ksp_version": "1.12",
+  "license": "restricted",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "https://github.com/RSS-Reborn/Sol-Configs/wiki",
+    "repository": "https://github.com/RSS-Reborn/Sol-Configs",
+    "bugtracker": "https://github.com/RSS-Reborn/Sol-Configs/issues",
+    "manual": "https://github.com/RSS-Reborn/Sol-Configs/wiki"
+  },
+  "tags": [
+    "config",
+    "planet-pack"
+  ],
+  "depends": [
+    {
+      "name": "ModuleManager"
+    },
+    {
+      "name": "Sol-Core"
+    }
+  ],
+  "install": [
+    {
+      "file": "GameData/Sol-Configs",
+      "install_to": "GameData"
+    }
+  ],
+  "download": "https://github.com/RSS-Reborn/Sol-Configs/releases/download/V0.9.5-1/Sol_Configs-V0.9.5-1.zip",
+  "download_size": 2562332,
+  "download_hash": {
+    "sha1": "35FF334E11EBE1E07B831B5A770619105E7D811B",
+    "sha256": "7A63B92933B4587C252D31E9F467ADFEE262D37EFA910B30B2EDD76FD1D60291"
+  },
+  "download_content_type": "application/zip",
+  "install_size": 4781483,
+  "release_date": "2026-04-04T17:24:53Z",
+  "x_generated_by": "rkan/0.1.2"
+}
