@@ -27,67 +27,34 @@
   ],
   "depends": [
     {
-      "name": "KSPCommunityFixes"
-    },
-    {
-      "name": "Sol-Sun"
-    },
-    {
-      "name": "KSCSwitcher"
-    },
-    {
-      "name": "KSPTextureLoader"
-    },
-    {
-      "name": "Sol-AsteroidBelt"
-    },
-    {
-      "name": "TextureReplacer"
-    },
-    {
-      "name": "BurstPQS"
-    },
-    {
-      "name": "AdvancedPQSTools"
-    },
-    {
       "name": "Sol-Launchsites"
-    },
-    {
-      "name": "Sol-NeptuneSystem"
-    },
-    {
-      "name": "Sol-Visuals"
-    },
-    {
-      "name": "Sol-EarthSystem"
-    },
-    {
-      "name": "Sol-KuiperBelt"
-    },
-    {
-      "name": "Harmony2"
     },
     {
       "name": "ParallaxContinued-KTL"
     },
     {
-      "name": "Sol-Mercury"
-    },
-    {
-      "name": "KSPBurst"
-    },
-    {
-      "name": "Sol-Configs"
+      "name": "Kopernicus"
     },
     {
       "name": "Sol-JupiterSystem"
     },
     {
+      "name": "Sol-KuiperBelt"
+    },
+    {
       "name": "Sol-MarsSystem"
     },
     {
-      "name": "Kopernicus"
+      "name": "KSPCommunityFixes"
+    },
+    {
+      "name": "Sol-Visuals"
+    },
+    {
+      "name": "KSPTextureLoader"
+    },
+    {
+      "name": "TextureReplacer"
     },
     {
       "name": "Sol-SaturnSystem"
@@ -96,21 +63,54 @@
       "name": "Sol-Venus"
     },
     {
+      "name": "Sol-AsteroidBelt"
+    },
+    {
+      "name": "AdvancedPQSTools"
+    },
+    {
+      "name": "Sol-Configs"
+    },
+    {
+      "name": "KSPBurst"
+    },
+    {
+      "name": "Sol-Mercury"
+    },
+    {
+      "name": "Sol-EarthSystem"
+    },
+    {
+      "name": "Sol-NeptuneSystem"
+    },
+    {
+      "name": "KSCSwitcher"
+    },
+    {
+      "name": "Harmony2"
+    },
+    {
+      "name": "BurstPQS"
+    },
+    {
+      "name": "Sol-Sun"
+    },
+    {
       "name": "Sol-UranusSystem"
     }
   ],
   "conflicts": [
     {
-      "name": "RP-1-ExpressInstall-Graphics-Medium"
-    },
-    {
       "name": "RP-1-ExpressInstall-Graphics-Low"
     },
     {
-      "name": "RealSolarSystem"
+      "name": "RP-1-ExpressInstall-Graphics-High"
     },
     {
-      "name": "RP-1-ExpressInstall-Graphics-High"
+      "name": "RP-1-ExpressInstall-Graphics-Medium"
+    },
+    {
+      "name": "RealSolarSystem"
     }
   ],
   "install": [

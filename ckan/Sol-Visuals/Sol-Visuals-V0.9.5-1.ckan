@@ -29,13 +29,13 @@
   ],
   "depends": [
     {
-      "name": "ModuleManager"
-    },
-    {
       "name": "EnvironmentalVisualEnhancements"
     },
     {
       "name": "Scatterer"
+    },
+    {
+      "name": "ModuleManager"
     },
     {
       "name": "Sol-Core"
