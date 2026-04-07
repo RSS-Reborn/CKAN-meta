@@ -32,10 +32,10 @@
       "name": "EnvironmentalVisualEnhancements"
     },
     {
-      "name": "Scatterer"
+      "name": "ModuleManager"
     },
     {
-      "name": "ModuleManager"
+      "name": "Scatterer"
     },
     {
       "name": "Sol-Core"
