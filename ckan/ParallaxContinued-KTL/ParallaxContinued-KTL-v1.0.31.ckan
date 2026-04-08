@@ -26,25 +26,25 @@
   ],
   "depends": [
     {
-      "name": "Kopernicus"
-    },
-    {
-      "name": "KSPTextureLoader"
-    },
-    {
       "name": "ModuleManager"
     },
     {
       "name": "ParallaxContinued-Terrain-Textures"
     },
     {
+      "name": "ParallaxContinued-Planet-Textures"
+    },
+    {
       "name": "ParallaxContinued-Scatter-Textures"
     },
     {
-      "name": "KSPBurst"
+      "name": "KSPTextureLoader"
     },
     {
-      "name": "ParallaxContinued-Planet-Textures"
+      "name": "Kopernicus"
+    },
+    {
+      "name": "KSPBurst"
     }
   ],
   "recommends": [
@@ -81,5 +81,5 @@
   "download_content_type": "application/zip",
   "install_size": 25935513,
   "release_date": "2026-04-03T02:40:04Z",
-  "x_generated_by": "rkan/0.1.2"
+  "x_generated_by": "rkan/0.2.0"
 }

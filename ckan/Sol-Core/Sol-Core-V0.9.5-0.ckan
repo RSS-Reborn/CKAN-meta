@@ -27,90 +27,90 @@
   ],
   "depends": [
     {
-      "name": "ParallaxContinued-KTL"
-    },
-    {
-      "name": "Sol-Venus"
-    },
-    {
-      "name": "KSPTextureLoader"
-    },
-    {
-      "name": "Sol-MarsSystem"
-    },
-    {
-      "name": "BurstPQS"
-    },
-    {
-      "name": "Sol-JupiterSystem"
-    },
-    {
-      "name": "Sol-SaturnSystem"
-    },
-    {
-      "name": "Sol-AsteroidBelt"
-    },
-    {
-      "name": "TextureReplacer"
+      "name": "Harmony2"
     },
     {
       "name": "Kopernicus"
     },
     {
-      "name": "Harmony2"
-    },
-    {
-      "name": "KSCSwitcher"
-    },
-    {
-      "name": "Sol-Mercury"
-    },
-    {
-      "name": "Sol-Launchsites"
-    },
-    {
-      "name": "KSPCommunityFixes"
-    },
-    {
-      "name": "Sol-Visuals"
-    },
-    {
-      "name": "KSPBurst"
-    },
-    {
-      "name": "Sol-EarthSystem"
-    },
-    {
-      "name": "Sol-KuiperBelt"
-    },
-    {
-      "name": "AdvancedPQSTools"
-    },
-    {
-      "name": "Sol-Configs"
-    },
-    {
-      "name": "Sol-NeptuneSystem"
+      "name": "ParallaxContinued-KTL"
     },
     {
       "name": "Sol-UranusSystem"
     },
     {
+      "name": "Sol-Visuals"
+    },
+    {
+      "name": "KSPTextureLoader"
+    },
+    {
+      "name": "KSPBurst"
+    },
+    {
+      "name": "Sol-Launchsites"
+    },
+    {
+      "name": "TextureReplacer"
+    },
+    {
+      "name": "Sol-JupiterSystem"
+    },
+    {
+      "name": "KSPCommunityFixes"
+    },
+    {
+      "name": "Sol-SaturnSystem"
+    },
+    {
+      "name": "BurstPQS"
+    },
+    {
+      "name": "Sol-Mercury"
+    },
+    {
+      "name": "Sol-NeptuneSystem"
+    },
+    {
+      "name": "AdvancedPQSTools"
+    },
+    {
+      "name": "KSCSwitcher"
+    },
+    {
+      "name": "Sol-AsteroidBelt"
+    },
+    {
+      "name": "Sol-MarsSystem"
+    },
+    {
+      "name": "Sol-Configs"
+    },
+    {
       "name": "Sol-Sun"
+    },
+    {
+      "name": "Sol-EarthSystem"
+    },
+    {
+      "name": "Sol-Venus"
+    },
+    {
+      "name": "Sol-KuiperBelt"
     }
   ],
   "conflicts": [
-    {
-      "name": "RP-1-ExpressInstall-Graphics-Medium"
-    },
-    {
-      "name": "RP-1-ExpressInstall-Graphics-Low"
-    },
     {
       "name": "RealSolarSystem"
     },
     {
       "name": "RP-1-ExpressInstall-Graphics-High"
+    },
+    {
+      "name": "RP-1-ExpressInstall-Graphics-Medium"
+    },
+    {
+      "name": "RP-1-ExpressInstall-Graphics-Low"
     }
   ],
   "install": [
@@ -128,5 +128,5 @@
   "download_content_type": "application/zip",
   "install_size": 206306887,
   "release_date": "2026-04-01T02:04:44Z",
-  "x_generated_by": "rkan/0.1.2"
+  "x_generated_by": "rkan/0.2.0"
 }

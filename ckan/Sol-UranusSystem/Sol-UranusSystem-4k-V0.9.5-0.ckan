@@ -52,5 +52,5 @@
   "download_content_type": "application/zip",
   "install_size": 298543992,
   "release_date": "2026-04-01T03:20:12Z",
-  "x_generated_by": "rkan/0.1.2"
+  "x_generated_by": "rkan/0.2.0"
 }
