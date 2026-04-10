@@ -18,30 +18,67 @@ file = "GameData/Sol-Textures"
 install_to = "GameData"
 
 [dependencies]
-Kopernicus = "*"
+Kopernicus = ">=release-1.12.1-242"
 KSPBurst = "*"
 Harmony2 = "*"
 ParallaxContinued-KTL = "*"
 KSPTextureLoader = "*"
-AdvancedPQSTools = "*"
+AdvancedPQSTools = ">=1.6.1"
 BurstPQS = "*"
 KSPCommunityFixes = "*"
 KSCSwitcher = "*"
 TextureReplacer = "*"
+
 Sol-Configs = "*"
 Sol-Visuals = "*"
-Sol-Launchsites = "*"
-Sol-Sun = "*"
-Sol-Mercury = "*"
-Sol-Venus = "*"
-Sol-EarthSystem = "*"
-Sol-MarsSystem = "*"
-Sol-JupiterSystem = "*"
-Sol-SaturnSystem = "*"
-Sol-UranusSystem = "*"
-Sol-NeptuneSystem = "*"
-Sol-AsteroidBelt = "*"
-Sol-KuiperBelt = "*"
+
+[dependencies.Sol-Launchsites]
+version = "*"
+help_text = "Choose a launch sites texture resolution."
+
+[dependencies.Sol-Sun]
+version = "*"
+help_text = "Choose a Sun texture resolution."
+
+[dependencies.Sol-Mercury]
+version = "*"
+help_text = "Choose a Mercury texture resolution."
+
+[dependencies.Sol-Venus]
+version = "*"
+help_text = "Choose a Venus texture resolution."
+
+[dependencies.Sol-EarthSystem]
+version = "*"
+help_text = "Choose an Earth system texture resolution."
+
+[dependencies.Sol-MarsSystem]
+version = "*"
+help_text = "Choose a Mars system texture resolution."
+
+[dependencies.Sol-JupiterSystem]
+version = "*"
+help_text = "Choose a Jupiter system texture resolution."
+
+[dependencies.Sol-SaturnSystem]
+version = "*"
+help_text = "Choose a Saturn system texture resolution."
+
+[dependencies.Sol-UranusSystem]
+version = "*"
+help_text = "Choose a Uranus system texture resolution."
+
+[dependencies.Sol-NeptuneSystem]
+version = "*"
+help_text = "Choose a Neptune system texture resolution."
+
+[dependencies.Sol-AsteroidBelt]
+version = "*"
+help_text = "Choose an asteroid belt texture resolution."
+
+[dependencies.Sol-KuiperBelt]
+version = "*"
+help_text = "Choose a Kuiper Belt texture resolution."
 
 [conflicts]
 RealSolarSystem = "*"
