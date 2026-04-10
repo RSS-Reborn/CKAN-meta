@@ -29,9 +29,6 @@
   ],
   "depends": [
     {
-      "name": "EnvironmentalVisualEnhancements"
-    },
-    {
       "name": "ModuleManager"
     },
     {
@@ -39,6 +36,9 @@
     },
     {
       "name": "Scatterer"
+    },
+    {
+      "name": "EnvironmentalVisualEnhancements"
     }
   ],
   "install": [
