@@ -18,7 +18,7 @@ file = "GameData/Sol-Textures"
 install_to = "GameData"
 
 [dependencies]
-Kopernicus = ">=release-1.12.1-242"
+Kopernicus = ">=2:release-1.12.1-242"
 KSPBurst = "*"
 Harmony2 = "*"
 ParallaxContinued-KTL = "*"
