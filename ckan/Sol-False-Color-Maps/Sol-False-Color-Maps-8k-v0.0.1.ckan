@@ -1,0 +1,55 @@
+{
+  "spec_version": "v1.34",
+  "identifier": "Sol-False-Color-Maps-8k",
+  "name": "Sol False Color Maps (8k)",
+  "abstract": "False color maps for planets and moons",
+  "author": [
+    "SimpleUlty"
+  ],
+  "version": "v0.0.1",
+  "ksp_version": "1.12",
+  "license": "restricted",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "https://github.com/SimpleUlty/Sol-False-Color-Maps",
+    "repository": "https://github.com/SimpleUlty/Sol-False-Color-Maps",
+    "bugtracker": "https://github.com/SimpleUlty/Sol-False-Color-Maps/issues",
+    "manual": "https://github.com/SimpleUlty/Sol-False-Color-Maps/wiki"
+  },
+  "tags": [
+    "config",
+    "planet-pack"
+  ],
+  "provides": [
+    "Sol-False-Color-Maps"
+  ],
+  "depends": [
+    {
+      "name": "Sol-Configs"
+    }
+  ],
+  "conflicts": [
+    {
+      "name": "Sol-False-Color-Maps-4k"
+    },
+    {
+      "name": "Sol-False-Color-Maps-16k"
+    }
+  ],
+  "install": [
+    {
+      "file": "GameData/Sol-Addons",
+      "install_to": "GameData"
+    }
+  ],
+  "download": "https://github.com/SimpleUlty/Sol-False-Color-Maps/releases/download/v0.0.1/FalseColorMaps.8K.zip",
+  "download_size": 565916029,
+  "download_hash": {
+    "sha1": "198010CD9DE7EF94B1781EA5C668482A109E073F",
+    "sha256": "C0A5CB290FCE874F797C5E85AFC7AAF7B0C75033AFA4F88E9ED549B9288B42FC"
+  },
+  "download_content_type": "application/zip",
+  "install_size": 684921695,
+  "release_date": "2026-05-15T23:47:14Z",
+  "x_generated_by": "rkan/0.3.0"
+}
