@@ -1,0 +1,44 @@
+{
+  "spec_version": "v1.34",
+  "identifier": "Sol-SPVE",
+  "name": "Sol-SPVE",
+  "abstract": "SPVE configs for Sol",
+  "author": [
+    "rbeap"
+  ],
+  "version": "v1.1.1",
+  "ksp_version": "1.12",
+  "license": "CC-BY-NC 4.0",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "https://github.com/rbeap/Sol-SPVE",
+    "repository": "https://github.com/rbeap/Sol-SPVE",
+    "bugtracker": "https://github.com/rbeap/Sol-SPVE/issues",
+    "manual": "https://github.com/rbeap/Sol-SPVE/wiki"
+  },
+  "tags": [
+    "config",
+    "planet-pack"
+  ],
+  "depends": [
+    {
+      "name": "Sol-Configs"
+    }
+  ],
+  "install": [
+    {
+      "file": "Sol-SPVE",
+      "install_to": "GameData"
+    }
+  ],
+  "download": "https://github.com/rbeap/Sol-SPVE/releases/download/v1.1.1/Sol-SPVE-v1.1.1.zip",
+  "download_size": 56538197,
+  "download_hash": {
+    "sha1": "C0454AF25EC902A828055C602AAE9624A5EA8609",
+    "sha256": "D751CF805EA48815EFB1E1116F261DFEA2B2EDBF382E9BBC84F4D195E8B41A27"
+  },
+  "download_content_type": "application/zip",
+  "install_size": 415114310,
+  "release_date": "2026-05-11T22:27:48Z",
+  "x_generated_by": "rkan/0.3.0"
+}

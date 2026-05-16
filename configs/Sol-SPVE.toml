@@ -1,0 +1,20 @@
+identifier = "Sol-SPVE"
+name = "Sol-SPVE"
+abstract = "SPVE configs for Sol"
+tags = ["config", "planet-pack"]
+license = "CC-BY-NC 4.0"
+authors = ["rbeap"]
+ksp_version = "1.12"
+repo = "rbeap/Sol-SPVE"
+asset_match = "Sol-SPVE-.*\\.zip"
+
+[resources]
+homepage = "https://github.com/rbeap/Sol-SPVE"
+
+[dependencies]
+Sol-Configs = "*"
+
+[[install]]
+file = "Sol-SPVE"
+install_to = "GameData"
+
