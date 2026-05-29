@@ -1,0 +1,24 @@
+identifier = "RSSOrigin2-MarsCrossers"
+name = "RSS-Origin 2 - MarsCrossers"
+abstract = "This pack includes 4 Mars-crossers and 4 moons: Atami, S/2005 (1139) 1 | Suomi, S/2020 (1656) 1 | Litva, S/2009 (2577) 1, S/2012 (2577) 1 | Braille."
+tags = ["config", "planet-pack"]
+license = "CC-BY-NC-SA-4.0"
+authors = ["Charon_S"]
+ksp_version = "1.12"
+repo = "CharonSSS/RSS-Origin-2-MarsCrossers"
+asset_match = "RSSOrigin2-MarsCrossers.zip"
+
+[resources]
+manual = "https://github.com/CharonSSS/RSS-Origin-2/wiki"
+homepage = "https://github.com/CharonSSS/RSS-Origin-2"
+
+[[install]]
+file = "GameData/RSSOrigin2"
+install_to = "GameData"
+
+[dependencies]
+RSSOrigin2-Core = "*"
+
+[recommends]
+
+[conflicts]

@@ -1,0 +1,24 @@
+identifier = "RSSOrigin2-TransNeptunianObjects-SizeI"
+name = "RSS-Origin 2 - TransNeptunianObjects-SizeI"
+abstract = "This pack includes 10 TNOs with diameter < 500km and 6 moons: Chaos | Logos, Zoe | ǂKá̦gára, ǃHãunu | Arrokoth | Leleākūhonua | 2014 FE72 | Arawn | Huya, S/2012 (38628) 1 | Lempo, Paha, Hiisi | Manwë, Thorondor."
+tags = ["config", "planet-pack"]
+license = "CC-BY-NC-SA-4.0"
+authors = ["Charon_S"]
+ksp_version = "1.12"
+repo = "CharonSSS/RSS-Origin-2-TransNeptunianObjects"
+asset_match = "RSSOrigin2-TransNeptunianObjects-SizeI.zip"
+
+[resources]
+manual = "https://github.com/CharonSSS/RSS-Origin-2/wiki"
+homepage = "https://github.com/CharonSSS/RSS-Origin-2"
+
+[[install]]
+file = "GameData/RSSOrigin2"
+install_to = "GameData"
+
+[dependencies]
+RSSOrigin2-Core = "*"
+
+[recommends]
+
+[conflicts]
