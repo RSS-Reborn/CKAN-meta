@@ -26,7 +26,10 @@ jobs:
           set -euo pipefail
           # Added/Copied/Modified/Renamed config files (skip deletions: there is
           # nothing left to generate for a removed formula).
-          mapfile -t files < <(git diff --name-only --diff-filter=ACMR "$BASE_SHA" HEAD -- 'configs/**/*.toml')
+          # Use git's :(glob) pathspec magic so '**' spans zero-or-more
+          # directories; the default pathspec syntax would miss files sitting
+          # directly in configs/ (e.g. configs/Sol-SPVE.toml).
+          mapfile -t files < <(git diff --name-only --diff-filter=ACMR "$BASE_SHA" HEAD -- ':(glob)configs/**/*.toml')
 
           ids=()
           for f in "${files[@]}"; do
