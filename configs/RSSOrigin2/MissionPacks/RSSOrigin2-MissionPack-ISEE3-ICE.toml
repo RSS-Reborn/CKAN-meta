@@ -1,0 +1,25 @@
+identifier = "RSSOrigin2-MissionPack-ISEE3-ICE"
+name = "RSS-Origin 2 - MissionPack-ISEE3-ICE"
+abstract = "This pack includes 2 objects for the ISEE-3/ICE mission: 1P/Halley | 21P/Giacobini–Zinner."
+tags = ["config", "planet-pack"]
+license = "CC-BY-NC-SA-4.0"
+authors = ["Charon_S"]
+ksp_version = "1.12"
+repo = "CharonSSS/RSS-Origin-2-MissionPack-ISEE3-ICE"
+asset_match = "RSSOrigin2-MissionPack-ISEE3-ICE.zip"
+
+[resources]
+manual = "https://github.com/CharonSSS/RSS-Origin-2/wiki"
+homepage = "https://github.com/CharonSSS/RSS-Origin-2"
+
+[[install]]
+file = "GameData/RSSOrigin2"
+install_to = "GameData"
+
+[dependencies]
+RSSOrigin2-Core = "*"
+
+[recommends]
+
+[conflicts]
+RSSOrigin2-Comets = "*"

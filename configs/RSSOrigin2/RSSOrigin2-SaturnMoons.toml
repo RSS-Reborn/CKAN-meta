@@ -1,0 +1,24 @@
+identifier = "RSSOrigin2-SaturnMoons"
+name = "RSS-Origin 2 - SaturnMoons"
+abstract = "This pack includes 22 extra moons for Saturn: Hyperion | Phoebe | Janus | Epimetheus | Helene | Telesto | Calypso | Atlas | Prometheus | Pandora | Pan | Ymir | Paaliaq | Kiviuq | Albiorix | Siarnaq | Methone | Pallene | Polydeuces | Daphnis | Anthe | Aegaeon."
+tags = ["config", "planet-pack"]
+license = "CC-BY-NC-SA-4.0"
+authors = ["Charon_S"]
+ksp_version = "1.12"
+repo = "CharonSSS/RSS-Origin-2-SaturnMoons"
+asset_match = "RSSOrigin2-SaturnMoons.zip"
+
+[resources]
+manual = "https://github.com/CharonSSS/RSS-Origin-2/wiki"
+homepage = "https://github.com/CharonSSS/RSS-Origin-2"
+
+[[install]]
+file = "GameData/RSSOrigin2"
+install_to = "GameData"
+
+[dependencies]
+RSSOrigin2-Core = "*"
+
+[recommends]
+
+[conflicts]

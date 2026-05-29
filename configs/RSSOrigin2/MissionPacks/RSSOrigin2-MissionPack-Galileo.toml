@@ -1,0 +1,26 @@
+identifier = "RSSOrigin2-MissionPack-Galileo"
+name = "RSS-Origin 2 - MissionPack-Galileo"
+abstract = "This pack includes 7 objects for the Galileo mission: Ida, Dactyl | Gaspra | Amalthea | Thebe | Adrastea | Metis."
+tags = ["config", "planet-pack"]
+license = "CC-BY-NC-SA-4.0"
+authors = ["Charon_S"]
+ksp_version = "1.12"
+repo = "CharonSSS/RSS-Origin-2-MissionPack-Galileo"
+asset_match = "RSSOrigin2-MissionPack-Galileo.zip"
+
+[resources]
+manual = "https://github.com/CharonSSS/RSS-Origin-2/wiki"
+homepage = "https://github.com/CharonSSS/RSS-Origin-2"
+
+[[install]]
+file = "GameData/RSSOrigin2"
+install_to = "GameData"
+
+[dependencies]
+RSSOrigin2-Core = "*"
+
+[recommends]
+
+[conflicts]
+RSSOrigin2-MainBeltAsteroids-SizeI = "*"
+RSSOrigin2-JupiterMoons = "*"

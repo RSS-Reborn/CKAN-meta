@@ -1,0 +1,26 @@
+identifier = "RSSOrigin2-MissionPack-Lucy"
+name = "RSS-Origin 2 - MissionPack-Lucy"
+abstract = "This pack includes 11 objects for the Lucy mission: Patroclus, Menoetius | Eurybates, Queta | Leucus | Polymele, S/2022 (15094) 1 | Orus | Donaldjohanson | Dinkinesh, Selam."
+tags = ["config", "planet-pack"]
+license = "CC-BY-NC-SA-4.0"
+authors = ["Charon_S"]
+ksp_version = "1.12"
+repo = "CharonSSS/RSS-Origin-2-MissionPack-Lucy"
+asset_match = "RSSOrigin2-MissionPack-Lucy.zip"
+
+[resources]
+manual = "https://github.com/CharonSSS/RSS-Origin-2/wiki"
+homepage = "https://github.com/CharonSSS/RSS-Origin-2"
+
+[[install]]
+file = "GameData/RSSOrigin2"
+install_to = "GameData"
+
+[dependencies]
+RSSOrigin2-Core = "*"
+
+[recommends]
+
+[conflicts]
+RSSOrigin2-MainBeltAsteroids-SizeI = "*"
+RSSOrigin2-JupiterTrojans = "*"

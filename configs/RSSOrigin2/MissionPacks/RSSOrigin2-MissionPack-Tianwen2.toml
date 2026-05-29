@@ -1,0 +1,26 @@
+identifier = "RSSOrigin2-MissionPack-Tianwen2"
+name = "RSS-Origin 2 - MissionPack-Tianwen2"
+abstract = "This pack includes 3 objects for the Tianwen-2 mission: Kamoʻoalewa | 311P/PanSTARRS, Companion of 311P."
+tags = ["config", "planet-pack"]
+license = "CC-BY-NC-SA-4.0"
+authors = ["Charon_S"]
+ksp_version = "1.12"
+repo = "CharonSSS/RSS-Origin-2-MissionPack-Tianwen2"
+asset_match = "RSSOrigin2-MissionPack-Tianwen2.zip"
+
+[resources]
+manual = "https://github.com/CharonSSS/RSS-Origin-2/wiki"
+homepage = "https://github.com/CharonSSS/RSS-Origin-2"
+
+[[install]]
+file = "GameData/RSSOrigin2"
+install_to = "GameData"
+
+[dependencies]
+RSSOrigin2-Core = "*"
+
+[recommends]
+
+[conflicts]
+RSSOrigin2-NearEarthObjects-SizeI = "*"
+RSSOrigin2-Comets = "*"

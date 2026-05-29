@@ -1,0 +1,27 @@
+identifier = "RSSOrigin2-MissionPack-NewHorizons"
+name = "RSS-Origin 2 - MissionPack-NewHorizons"
+abstract = "This pack includes 6 objects for the New Horizons mission: APL | Arrokoth | Nix | Hydra | Kerberos | Styx."
+tags = ["config", "planet-pack"]
+license = "CC-BY-NC-SA-4.0"
+authors = ["Charon_S"]
+ksp_version = "1.12"
+repo = "CharonSSS/RSS-Origin-2-MissionPack-NewHorizons"
+asset_match = "RSSOrigin2-MissionPack-NewHorizons.zip"
+
+[resources]
+manual = "https://github.com/CharonSSS/RSS-Origin-2/wiki"
+homepage = "https://github.com/CharonSSS/RSS-Origin-2"
+
+[[install]]
+file = "GameData/RSSOrigin2"
+install_to = "GameData"
+
+[dependencies]
+RSSOrigin2-Core = "*"
+
+[recommends]
+
+[conflicts]
+RSSOrigin2-DwarfPlanets = "*"
+RSSOrigin2-TransNeptunianObjects-SizeI = "*"
+RSSOrigin2-MainBeltAsteroids-SizeI = "*"

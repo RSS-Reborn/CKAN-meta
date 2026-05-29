@@ -1,0 +1,40 @@
+identifier = "RSSOrigin2-Core"
+name = "RSS-Origin 2 - Core"
+abstract = "Explore hundreds of real-world asteroids, comets and moons in KSP. The next generation of RSS-Origin, an addon for Sol. This is the core config, texture and plugin pack of RSS-Origin 2, install this first."
+tags = ["config", "planet-pack"]
+license = "CC-BY-NC-SA-4.0"
+authors = ["Charon_S"]
+ksp_version = "1.12"
+repo = "CharonSSS/RSS-Origin-2"
+asset_match = "RSSOrigin2-Core.zip"
+
+[resources]
+manual = "https://github.com/CharonSSS/RSS-Origin-2/wiki"
+homepage = "https://github.com/CharonSSS/RSS-Origin-2"
+
+[[install]]
+file = "GameData/RSSOrigin2"
+install_to = "GameData"
+
+[dependencies]
+Sol-Configs = "*"
+
+[recommends]
+RSSOrigin2-JupiterMoons = "*"
+RSSOrigin2-SaturnMoons = "*"
+RSSOrigin2-UranusMoons = "*"
+RSSOrigin2-NeptuneMoons = "*"
+RSSOrigin2-DwarfPlanets = "*"
+RSSOrigin2-NearEarthObjects-SizeI = "*"
+RSSOrigin2-NearEarthObjects-SizeII = "*"
+RSSOrigin2-MarsCrossers = "*"
+RSSOrigin2-MainBeltAsteroids-SizeI = "*"
+RSSOrigin2-MainBeltAsteroids-SizeII = "*"
+RSSOrigin2-JupiterTrojans = "*"
+RSSOrigin2-Centaurs = "*"
+RSSOrigin2-TransNeptunianObjects-SizeI = "*"
+RSSOrigin2-TransNeptunianObjects-SizeII = "*"
+RSSOrigin2-Comets = "*"
+RSSOrigin2-InterstellarObjects = "*"
+
+[conflicts]
