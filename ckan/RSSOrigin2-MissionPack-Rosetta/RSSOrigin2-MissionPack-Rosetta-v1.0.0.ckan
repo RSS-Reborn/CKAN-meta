@@ -1,0 +1,52 @@
+{
+  "spec_version": "v1.34",
+  "identifier": "RSSOrigin2-MissionPack-Rosetta",
+  "name": "RSS-Origin 2 - MissionPack-Rosetta",
+  "abstract": "This pack includes 3 objects for the Rosetta mission: Lutetia | Šteins | 67P/Churyumov–Gerasimenko.",
+  "author": [
+    "Charon_S"
+  ],
+  "version": "v1.0.0",
+  "ksp_version": "1.12",
+  "license": "CC-BY-NC-SA-4.0",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "https://github.com/CharonSSS/RSS-Origin-2",
+    "repository": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-Rosetta",
+    "bugtracker": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-Rosetta/issues",
+    "manual": "https://github.com/CharonSSS/RSS-Origin-2/wiki"
+  },
+  "tags": [
+    "config",
+    "planet-pack"
+  ],
+  "depends": [
+    {
+      "name": "RSSOrigin2-Core"
+    }
+  ],
+  "conflicts": [
+    {
+      "name": "RSSOrigin2-Comets"
+    },
+    {
+      "name": "RSSOrigin2-MainBeltAsteroids-SizeI"
+    }
+  ],
+  "install": [
+    {
+      "file": "GameData/RSSOrigin2",
+      "install_to": "GameData"
+    }
+  ],
+  "download": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-Rosetta/releases/download/v1.0.0/RSSOrigin2-MissionPack-Rosetta.zip",
+  "download_size": 38920666,
+  "download_hash": {
+    "sha1": "560A4628CC6864F210C4061B6896F7D4A09C7369",
+    "sha256": "C518370C50C592B7CF455D66DACFF99F9F9B22B9EDA17EA4C3347DFA3CA7A9CC"
+  },
+  "download_content_type": "application/zip",
+  "install_size": 64045836,
+  "release_date": "2026-05-28T16:45:13Z",
+  "x_generated_by": "rkan/0.3.0"
+}

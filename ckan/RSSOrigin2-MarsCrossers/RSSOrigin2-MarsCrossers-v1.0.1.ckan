@@ -1,0 +1,44 @@
+{
+  "spec_version": "v1.34",
+  "identifier": "RSSOrigin2-MarsCrossers",
+  "name": "RSS-Origin 2 - MarsCrossers",
+  "abstract": "This pack includes 4 Mars-crossers and 4 moons: Atami, S/2005 (1139) 1 | Suomi, S/2020 (1656) 1 | Litva, S/2009 (2577) 1, S/2012 (2577) 1 | Braille.",
+  "author": [
+    "Charon_S"
+  ],
+  "version": "v1.0.1",
+  "ksp_version": "1.12",
+  "license": "CC-BY-NC-SA-4.0",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "https://github.com/CharonSSS/RSS-Origin-2",
+    "repository": "https://github.com/CharonSSS/RSS-Origin-2-MarsCrossers",
+    "bugtracker": "https://github.com/CharonSSS/RSS-Origin-2-MarsCrossers/issues",
+    "manual": "https://github.com/CharonSSS/RSS-Origin-2/wiki"
+  },
+  "tags": [
+    "config",
+    "planet-pack"
+  ],
+  "depends": [
+    {
+      "name": "RSSOrigin2-Core"
+    }
+  ],
+  "install": [
+    {
+      "file": "GameData/RSSOrigin2",
+      "install_to": "GameData"
+    }
+  ],
+  "download": "https://github.com/CharonSSS/RSS-Origin-2-MarsCrossers/releases/download/v1.0.1/RSSOrigin2-MarsCrossers.zip",
+  "download_size": 248940228,
+  "download_hash": {
+    "sha1": "6EFF9599D34259975B65A87D70922E99D991EC1D",
+    "sha256": "0CBE0213B51575252F8A814EC8438DBC90A118084018C76EB88054695EDDDB1B"
+  },
+  "download_content_type": "application/zip",
+  "install_size": 316980882,
+  "release_date": "2026-05-28T16:08:01Z",
+  "x_generated_by": "rkan/0.3.0"
+}

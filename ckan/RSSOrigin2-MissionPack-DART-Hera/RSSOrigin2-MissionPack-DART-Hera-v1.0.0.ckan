@@ -1,0 +1,49 @@
+{
+  "spec_version": "v1.34",
+  "identifier": "RSSOrigin2-MissionPack-DART-Hera",
+  "name": "RSS-Origin 2 - MissionPack-DART-Hera",
+  "abstract": "This pack includes 2 objects for the DART and Hera mission: Didymos, Dimorphos.",
+  "author": [
+    "Charon_S"
+  ],
+  "version": "v1.0.0",
+  "ksp_version": "1.12",
+  "license": "CC-BY-NC-SA-4.0",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "https://github.com/CharonSSS/RSS-Origin-2",
+    "repository": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-DART-Hera",
+    "bugtracker": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-DART-Hera/issues",
+    "manual": "https://github.com/CharonSSS/RSS-Origin-2/wiki"
+  },
+  "tags": [
+    "config",
+    "planet-pack"
+  ],
+  "depends": [
+    {
+      "name": "RSSOrigin2-Core"
+    }
+  ],
+  "conflicts": [
+    {
+      "name": "RSSOrigin2-NearEarthObjects-SizeI"
+    }
+  ],
+  "install": [
+    {
+      "file": "GameData/RSSOrigin2",
+      "install_to": "GameData"
+    }
+  ],
+  "download": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-DART-Hera/releases/download/v1.0.0/RSSOrigin2-MissionPack-DART-Hera.zip",
+  "download_size": 24614779,
+  "download_hash": {
+    "sha1": "5BCFF7D120E9AA3C8379587C03C9AADBA9128D72",
+    "sha256": "5EA66F941DC07F088B75122E2CD2AE07B0BA06C179E85A9A08061B74BB254622"
+  },
+  "download_content_type": "application/zip",
+  "install_size": 45077125,
+  "release_date": "2026-05-28T16:43:41Z",
+  "x_generated_by": "rkan/0.3.0"
+}

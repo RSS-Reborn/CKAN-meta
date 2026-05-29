@@ -1,0 +1,44 @@
+{
+  "spec_version": "v1.34",
+  "identifier": "RSSOrigin2-UranusMoons",
+  "name": "RSS-Origin 2 - UranusMoons",
+  "abstract": "This pack includes 18 extra moons for Uranus: Cordelia | Ophelia | Bianca | Cressida | Desdemona | Juliet | Portia | Rosalind | Belinda | Puck | Caliban | Sycorax | Francisco | Margaret | Ferdinand | Perdita | Mab | Cupid.",
+  "author": [
+    "Charon_S"
+  ],
+  "version": "v1.0.1",
+  "ksp_version": "1.12",
+  "license": "CC-BY-NC-SA-4.0",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "https://github.com/CharonSSS/RSS-Origin-2",
+    "repository": "https://github.com/CharonSSS/RSS-Origin-2-UranusMoons",
+    "bugtracker": "https://github.com/CharonSSS/RSS-Origin-2-UranusMoons/issues",
+    "manual": "https://github.com/CharonSSS/RSS-Origin-2/wiki"
+  },
+  "tags": [
+    "config",
+    "planet-pack"
+  ],
+  "depends": [
+    {
+      "name": "RSSOrigin2-Core"
+    }
+  ],
+  "install": [
+    {
+      "file": "GameData/RSSOrigin2",
+      "install_to": "GameData"
+    }
+  ],
+  "download": "https://github.com/CharonSSS/RSS-Origin-2-UranusMoons/releases/download/v1.0.1/RSSOrigin2-UranusMoons.zip",
+  "download_size": 463739216,
+  "download_hash": {
+    "sha1": "23AC021B00420FA30ED552B28637333EDCEC0154",
+    "sha256": "4D976A3F66EE7A3A779BD873F6597B7F7A05199D42C72CE2F1F730E776287189"
+  },
+  "download_content_type": "application/zip",
+  "install_size": 604892105,
+  "release_date": "2026-05-28T15:17:17Z",
+  "x_generated_by": "rkan/0.3.0"
+}

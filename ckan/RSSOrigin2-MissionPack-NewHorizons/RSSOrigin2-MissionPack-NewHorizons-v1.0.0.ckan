@@ -1,0 +1,55 @@
+{
+  "spec_version": "v1.34",
+  "identifier": "RSSOrigin2-MissionPack-NewHorizons",
+  "name": "RSS-Origin 2 - MissionPack-NewHorizons",
+  "abstract": "This pack includes 6 objects for the New Horizons mission: APL | Arrokoth | Nix | Hydra | Kerberos | Styx.",
+  "author": [
+    "Charon_S"
+  ],
+  "version": "v1.0.0",
+  "ksp_version": "1.12",
+  "license": "CC-BY-NC-SA-4.0",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "https://github.com/CharonSSS/RSS-Origin-2",
+    "repository": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-NewHorizons",
+    "bugtracker": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-NewHorizons/issues",
+    "manual": "https://github.com/CharonSSS/RSS-Origin-2/wiki"
+  },
+  "tags": [
+    "config",
+    "planet-pack"
+  ],
+  "depends": [
+    {
+      "name": "RSSOrigin2-Core"
+    }
+  ],
+  "conflicts": [
+    {
+      "name": "RSSOrigin2-DwarfPlanets"
+    },
+    {
+      "name": "RSSOrigin2-TransNeptunianObjects-SizeI"
+    },
+    {
+      "name": "RSSOrigin2-MainBeltAsteroids-SizeI"
+    }
+  ],
+  "install": [
+    {
+      "file": "GameData/RSSOrigin2",
+      "install_to": "GameData"
+    }
+  ],
+  "download": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-NewHorizons/releases/download/v1.0.0/RSSOrigin2-MissionPack-NewHorizons.zip",
+  "download_size": 120575422,
+  "download_hash": {
+    "sha1": "3B5CE3E4FA8D3159F585A9045EBFC317A13B88AA",
+    "sha256": "FB7E05EE10521ECDC10C1AF98561F5E6DDC5B141C141168990D3618BA548F758"
+  },
+  "download_content_type": "application/zip",
+  "install_size": 179231438,
+  "release_date": "2026-05-28T16:45:19Z",
+  "x_generated_by": "rkan/0.3.0"
+}

@@ -1,0 +1,52 @@
+{
+  "spec_version": "v1.34",
+  "identifier": "RSSOrigin2-MissionPack-NEARShoemaker",
+  "name": "RSS-Origin 2 - MissionPack-NEARShoemaker",
+  "abstract": "This pack includes 2 objects for the NEAR-Shoemaker mission: Mathilde | Eros.",
+  "author": [
+    "Charon_S"
+  ],
+  "version": "v1.0.0",
+  "ksp_version": "1.12",
+  "license": "CC-BY-NC-SA-4.0",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "https://github.com/CharonSSS/RSS-Origin-2",
+    "repository": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-NEARShoemaker",
+    "bugtracker": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-NEARShoemaker/issues",
+    "manual": "https://github.com/CharonSSS/RSS-Origin-2/wiki"
+  },
+  "tags": [
+    "config",
+    "planet-pack"
+  ],
+  "depends": [
+    {
+      "name": "RSSOrigin2-Core"
+    }
+  ],
+  "conflicts": [
+    {
+      "name": "RSSOrigin2-MainBeltAsteroids-SizeI"
+    },
+    {
+      "name": "RSSOrigin2-NearEarthObjects-SizeII"
+    }
+  ],
+  "install": [
+    {
+      "file": "GameData/RSSOrigin2",
+      "install_to": "GameData"
+    }
+  ],
+  "download": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-NEARShoemaker/releases/download/v1.0.0/RSSOrigin2-MissionPack-NEARShoemaker.zip",
+  "download_size": 164078384,
+  "download_hash": {
+    "sha1": "4BFE54BC558C7D78BDCA1907BAE049865A742065",
+    "sha256": "A7103FFE71723CF40E507687B4A66DE85F4045B852D7418A9CC387E36DBFE503"
+  },
+  "download_content_type": "application/zip",
+  "install_size": 291010493,
+  "release_date": "2026-05-28T16:45:20Z",
+  "x_generated_by": "rkan/0.3.0"
+}

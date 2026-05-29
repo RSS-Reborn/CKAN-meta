@@ -1,0 +1,49 @@
+{
+  "spec_version": "v1.34",
+  "identifier": "RSSOrigin2-MissionPack-Hayabusa2",
+  "name": "RSS-Origin 2 - MissionPack-Hayabusa2",
+  "abstract": "This pack includes 1 object for the Hayabusa2 mission: Ryugu.",
+  "author": [
+    "Charon_S"
+  ],
+  "version": "v1.0.0",
+  "ksp_version": "1.12",
+  "license": "CC-BY-NC-SA-4.0",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "https://github.com/CharonSSS/RSS-Origin-2",
+    "repository": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-Hayabusa2",
+    "bugtracker": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-Hayabusa2/issues",
+    "manual": "https://github.com/CharonSSS/RSS-Origin-2/wiki"
+  },
+  "tags": [
+    "config",
+    "planet-pack"
+  ],
+  "depends": [
+    {
+      "name": "RSSOrigin2-Core"
+    }
+  ],
+  "conflicts": [
+    {
+      "name": "RSSOrigin2-NearEarthObjects-SizeI"
+    }
+  ],
+  "install": [
+    {
+      "file": "GameData/RSSOrigin2",
+      "install_to": "GameData"
+    }
+  ],
+  "download": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-Hayabusa2/releases/download/v1.0.0/RSSOrigin2-MissionPack-Hayabusa2.zip",
+  "download_size": 2506558,
+  "download_hash": {
+    "sha1": "FE02C837C028587C3EB68A07072593F615439ADC",
+    "sha256": "D3EE161D80B7B0FC0D05978F82E145CD47BF181A3DB29683E32FE363273305CF"
+  },
+  "download_content_type": "application/zip",
+  "install_size": 3469330,
+  "release_date": "2026-05-28T16:44:25Z",
+  "x_generated_by": "rkan/0.3.0"
+}

@@ -1,0 +1,49 @@
+{
+  "spec_version": "v1.34",
+  "identifier": "RSSOrigin2-MissionPack-Hayabusa",
+  "name": "RSS-Origin 2 - MissionPack-Hayabusa",
+  "abstract": "This pack includes 1 object for the Hayabusa mission: Itokawa.",
+  "author": [
+    "Charon_S"
+  ],
+  "version": "v1.0.0",
+  "ksp_version": "1.12",
+  "license": "CC-BY-NC-SA-4.0",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "https://github.com/CharonSSS/RSS-Origin-2",
+    "repository": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-Hayabusa",
+    "bugtracker": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-Hayabusa/issues",
+    "manual": "https://github.com/CharonSSS/RSS-Origin-2/wiki"
+  },
+  "tags": [
+    "config",
+    "planet-pack"
+  ],
+  "depends": [
+    {
+      "name": "RSSOrigin2-Core"
+    }
+  ],
+  "conflicts": [
+    {
+      "name": "RSSOrigin2-NearEarthObjects-SizeI"
+    }
+  ],
+  "install": [
+    {
+      "file": "GameData/RSSOrigin2",
+      "install_to": "GameData"
+    }
+  ],
+  "download": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-Hayabusa/releases/download/v1.0.0/RSSOrigin2-MissionPack-Hayabusa.zip",
+  "download_size": 27346264,
+  "download_hash": {
+    "sha1": "9F11EC19087AB90377E0C89AAFCF729D52C44B9E",
+    "sha256": "730CEF59DCFD13481D8C3272B90DAD639FB6FFD8FF541E89E3974969F610D38D"
+  },
+  "download_content_type": "application/zip",
+  "install_size": 60974761,
+  "release_date": "2026-05-28T16:44:26Z",
+  "x_generated_by": "rkan/0.3.0"
+}

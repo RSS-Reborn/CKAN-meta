@@ -1,0 +1,52 @@
+{
+  "spec_version": "v1.34",
+  "identifier": "RSSOrigin2-MissionPack-DESTINYplus",
+  "name": "RSS-Origin 2 - MissionPack-DESTINY+",
+  "abstract": "This pack includes 2 objects for the DESTINY+ mission: Phaethon | Apophis.",
+  "author": [
+    "Charon_S"
+  ],
+  "version": "v1.0.0",
+  "ksp_version": "1.12",
+  "license": "CC-BY-NC-SA-4.0",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "https://github.com/CharonSSS/RSS-Origin-2",
+    "repository": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-DESTINYplus",
+    "bugtracker": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-DESTINYplus/issues",
+    "manual": "https://github.com/CharonSSS/RSS-Origin-2/wiki"
+  },
+  "tags": [
+    "config",
+    "planet-pack"
+  ],
+  "depends": [
+    {
+      "name": "RSSOrigin2-Core"
+    }
+  ],
+  "conflicts": [
+    {
+      "name": "RSSOrigin2-NearEarthObjects-SizeI"
+    },
+    {
+      "name": "RSSOrigin2-NearEarthObjects-SizeII"
+    }
+  ],
+  "install": [
+    {
+      "file": "GameData/RSSOrigin2",
+      "install_to": "GameData"
+    }
+  ],
+  "download": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-DESTINYplus/releases/download/v1.0.0/RSSOrigin2-MissionPack-DESTINYplus.zip",
+  "download_size": 61333533,
+  "download_hash": {
+    "sha1": "495AE2BF96020DE63A3E4CD4EF9DAF451BE3994B",
+    "sha256": "72DFE36DD1422C976C5CF49C6407F96E277F8E8217CF9592E40DB20D4620B92D"
+  },
+  "download_content_type": "application/zip",
+  "install_size": 79313397,
+  "release_date": "2026-05-29T07:39:45Z",
+  "x_generated_by": "rkan/0.3.0"
+}

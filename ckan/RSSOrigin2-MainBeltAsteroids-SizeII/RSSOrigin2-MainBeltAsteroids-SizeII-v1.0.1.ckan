@@ -1,0 +1,44 @@
+{
+  "spec_version": "v1.34",
+  "identifier": "RSSOrigin2-MainBeltAsteroids-SizeII",
+  "name": "RSS-Origin 2 - MainBeltAsteroids-SizeII",
+  "abstract": "This pack includes 14 MBAs with diameter > 100km and 15 moons: Pallas | Juno | Hygiea | Psyche | Kalliope, Linus | Eugenia, Petit-Prince, S/2004 (45) 1 | Cybele | Sylvia, Romulus, Remus | Minerva, Aegis, Gorgoneion | Camilla, S/2001 (107) 1, S/2016 (107) 1 | Hermione, S/2002 (121) 1 | Elektra, S/2003 (130) 1, S/2014 (130) 1, S/2014 (130) 2 | Kleopatra, Alexhelios, Cleoselene | Interamnia.",
+  "author": [
+    "Charon_S"
+  ],
+  "version": "v1.0.1",
+  "ksp_version": "1.12",
+  "license": "CC-BY-NC-SA-4.0",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "https://github.com/CharonSSS/RSS-Origin-2",
+    "repository": "https://github.com/CharonSSS/RSS-Origin-2-MainBeltAsteroids",
+    "bugtracker": "https://github.com/CharonSSS/RSS-Origin-2-MainBeltAsteroids/issues",
+    "manual": "https://github.com/CharonSSS/RSS-Origin-2/wiki"
+  },
+  "tags": [
+    "config",
+    "planet-pack"
+  ],
+  "depends": [
+    {
+      "name": "RSSOrigin2-Core"
+    }
+  ],
+  "install": [
+    {
+      "file": "GameData/RSSOrigin2",
+      "install_to": "GameData"
+    }
+  ],
+  "download": "https://github.com/CharonSSS/RSS-Origin-2-MainBeltAsteroids/releases/download/v1.0.1/RSSOrigin2-MainBeltAsteroids-SizeII.zip",
+  "download_size": 1356465136,
+  "download_hash": {
+    "sha1": "0029DD4C296F9C29C2061D3AA095358B7AAD2F84",
+    "sha256": "A8FEF96DB123B81CA21CB4B0E1E1D1FE128260B5312DA55BC214C0591440B1D8"
+  },
+  "download_content_type": "application/zip",
+  "install_size": 1796494366,
+  "release_date": "2026-05-28T16:25:58Z",
+  "x_generated_by": "rkan/0.3.0"
+}

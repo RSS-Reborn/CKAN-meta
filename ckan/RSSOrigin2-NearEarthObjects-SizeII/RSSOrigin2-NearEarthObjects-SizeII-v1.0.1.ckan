@@ -1,0 +1,44 @@
+{
+  "spec_version": "v1.34",
+  "identifier": "RSSOrigin2-NearEarthObjects-SizeII",
+  "name": "RSS-Origin 2 - NearEarthObjects-SizeII",
+  "abstract": "This pack includes 13 NEOs with diameter > 2km and 6 moons: Eros | Ganymed | Florence, S/2017 (3122) 1, S/2017 (3122) 2 | Don Quixote | 2001 SN263, S/2008 (153591) 1, S/2008 (153591) 2 | Geographos | Daedalus | Phaethon | Toutatis | Heracles, S/2011 (5143) 1 | Ra-Shalom | Cruithne | Atira, S/2017 (163693) 1.",
+  "author": [
+    "Charon_S"
+  ],
+  "version": "v1.0.1",
+  "ksp_version": "1.12",
+  "license": "CC-BY-NC-SA-4.0",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "https://github.com/CharonSSS/RSS-Origin-2",
+    "repository": "https://github.com/CharonSSS/RSS-Origin-2-NearEarthObjects",
+    "bugtracker": "https://github.com/CharonSSS/RSS-Origin-2-NearEarthObjects/issues",
+    "manual": "https://github.com/CharonSSS/RSS-Origin-2/wiki"
+  },
+  "tags": [
+    "config",
+    "planet-pack"
+  ],
+  "depends": [
+    {
+      "name": "RSSOrigin2-Core"
+    }
+  ],
+  "install": [
+    {
+      "file": "GameData/RSSOrigin2",
+      "install_to": "GameData"
+    }
+  ],
+  "download": "https://github.com/CharonSSS/RSS-Origin-2-NearEarthObjects/releases/download/v1.0.1/RSSOrigin2-NearEarthObjects-SizeII.zip",
+  "download_size": 658374418,
+  "download_hash": {
+    "sha1": "BDA0C6E808E8E282A534C5CE0DD6B112DB9B1572",
+    "sha256": "028F54B98F7AC30EE1633DE3AA3E227550A600C8C8C623842AE14DFC18E479F2"
+  },
+  "download_content_type": "application/zip",
+  "install_size": 947824341,
+  "release_date": "2026-05-28T16:18:31Z",
+  "x_generated_by": "rkan/0.3.0"
+}

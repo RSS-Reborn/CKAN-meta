@@ -1,0 +1,52 @@
+{
+  "spec_version": "v1.34",
+  "identifier": "RSSOrigin2-MissionPack-DeepSpace1",
+  "name": "RSS-Origin 2 - MissionPack-DeepSpace1",
+  "abstract": "This pack includes 2 objects for the Deep Space 1 mission: Braille | 19P/Borrelly.",
+  "author": [
+    "Charon_S"
+  ],
+  "version": "v1.0.0",
+  "ksp_version": "1.12",
+  "license": "CC-BY-NC-SA-4.0",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "https://github.com/CharonSSS/RSS-Origin-2",
+    "repository": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-DeepSpace1",
+    "bugtracker": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-DeepSpace1/issues",
+    "manual": "https://github.com/CharonSSS/RSS-Origin-2/wiki"
+  },
+  "tags": [
+    "config",
+    "planet-pack"
+  ],
+  "depends": [
+    {
+      "name": "RSSOrigin2-Core"
+    }
+  ],
+  "conflicts": [
+    {
+      "name": "RSSOrigin2-MarsCrossers"
+    },
+    {
+      "name": "RSSOrigin2-Comets"
+    }
+  ],
+  "install": [
+    {
+      "file": "GameData/RSSOrigin2",
+      "install_to": "GameData"
+    }
+  ],
+  "download": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-DeepSpace1/releases/download/v1.0.0/RSSOrigin2-MissionPack-DeepSpace1.zip",
+  "download_size": 30039714,
+  "download_hash": {
+    "sha1": "C515AB71809DE3AC9F1C2D85E2401FBEF7665E95",
+    "sha256": "617BAA0E37EAC8BC044177F38252BE9926DA303397EB482F6F9E9D3D2C62D854"
+  },
+  "download_content_type": "application/zip",
+  "install_size": 42960712,
+  "release_date": "2026-05-28T16:43:57Z",
+  "x_generated_by": "rkan/0.3.0"
+}

@@ -1,0 +1,49 @@
+{
+  "spec_version": "v1.34",
+  "identifier": "RSSOrigin2-MissionPack-DeepImpact",
+  "name": "RSS-Origin 2 - MissionPack-DeepImpact",
+  "abstract": "This pack includes 2 objects for the Deep Impact mission: 9P/Tempel 1 | 103P/Hartley 2.",
+  "author": [
+    "Charon_S"
+  ],
+  "version": "v1.0.0",
+  "ksp_version": "1.12",
+  "license": "CC-BY-NC-SA-4.0",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "https://github.com/CharonSSS/RSS-Origin-2",
+    "repository": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-DeepImpact",
+    "bugtracker": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-DeepImpact/issues",
+    "manual": "https://github.com/CharonSSS/RSS-Origin-2/wiki"
+  },
+  "tags": [
+    "config",
+    "planet-pack"
+  ],
+  "depends": [
+    {
+      "name": "RSSOrigin2-Core"
+    }
+  ],
+  "conflicts": [
+    {
+      "name": "RSSOrigin2-Comets"
+    }
+  ],
+  "install": [
+    {
+      "file": "GameData/RSSOrigin2",
+      "install_to": "GameData"
+    }
+  ],
+  "download": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-DeepImpact/releases/download/v1.0.0/RSSOrigin2-MissionPack-DeepImpact.zip",
+  "download_size": 8280144,
+  "download_hash": {
+    "sha1": "48B5BD5545514915CDEC7F2B81A1AE157716CFAE",
+    "sha256": "E138E2F7B2BCFBD0F410C3DC4F2B8EDC2F489EF1A09F0737D979AA0D6B596211"
+  },
+  "download_content_type": "application/zip",
+  "install_size": 11759502,
+  "release_date": "2026-05-28T16:43:46Z",
+  "x_generated_by": "rkan/0.3.0"
+}

@@ -1,0 +1,52 @@
+{
+  "spec_version": "v1.34",
+  "identifier": "RSSOrigin2-MissionPack-Cassini",
+  "name": "RSS-Origin 2 - MissionPack-Cassini",
+  "abstract": "This pack includes 18 objects for the Cassini–Huygens mission: Masursky | Hyperion | Phoebe | Janus | Epimetheus | Helene | Telesto | Calypso | Atlas | Prometheus | Pandora | Pan | Methone | Pallene | Polydeuces | Daphnis | Anthe | Aegaeon.",
+  "author": [
+    "Charon_S"
+  ],
+  "version": "v1.0.0",
+  "ksp_version": "1.12",
+  "license": "CC-BY-NC-SA-4.0",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "https://github.com/CharonSSS/RSS-Origin-2",
+    "repository": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-Cassini",
+    "bugtracker": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-Cassini/issues",
+    "manual": "https://github.com/CharonSSS/RSS-Origin-2/wiki"
+  },
+  "tags": [
+    "config",
+    "planet-pack"
+  ],
+  "depends": [
+    {
+      "name": "RSSOrigin2-Core"
+    }
+  ],
+  "conflicts": [
+    {
+      "name": "RSSOrigin2-MainBeltAsteroids-SizeI"
+    },
+    {
+      "name": "RSSOrigin2-SaturnMoons"
+    }
+  ],
+  "install": [
+    {
+      "file": "GameData/RSSOrigin2",
+      "install_to": "GameData"
+    }
+  ],
+  "download": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-Cassini/releases/download/v1.0.0/RSSOrigin2-MissionPack-Cassini.zip",
+  "download_size": 268837531,
+  "download_hash": {
+    "sha1": "05AB3A23ECC13DB7AEDE1B44BB2B0A1CD3FCC07E",
+    "sha256": "F9D92135D99F850CD94A4EB7D5DB1A84D3440DD7F4F1112ED698B388AD74952B"
+  },
+  "download_content_type": "application/zip",
+  "install_size": 453087049,
+  "release_date": "2026-05-28T16:43:52Z",
+  "x_generated_by": "rkan/0.3.0"
+}

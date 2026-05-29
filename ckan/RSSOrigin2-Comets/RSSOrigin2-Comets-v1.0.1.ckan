@@ -1,0 +1,44 @@
+{
+  "spec_version": "v1.34",
+  "identifier": "RSSOrigin2-Comets",
+  "name": "RSS-Origin 2 - Comets",
+  "abstract": "This pack includes 20 Comets and 1 Comet moon: 1P/Halley | 2P/Encke | 6P/d'Arrest | 8P/Tuttle | 9P/Tempel 1 | 10P/Tempel 2 | 19P/Borrelly | 21P/Giacobini–Zinner | 26P/Grigg–Skjellerup | 29P/Schwassmann–Wachmann 1 | 46P/Wirtanen | 67P/Churyumov–Gerasimenko | 81P/Wild 2 | 103P/Hartley 2 | 153P/Ikeya–Zhang | 311P/PanSTARRS, Companion of 311P.",
+  "author": [
+    "Charon_S"
+  ],
+  "version": "v1.0.1",
+  "ksp_version": "1.12",
+  "license": "CC-BY-NC-SA-4.0",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "https://github.com/CharonSSS/RSS-Origin-2",
+    "repository": "https://github.com/CharonSSS/RSS-Origin-2-Comets",
+    "bugtracker": "https://github.com/CharonSSS/RSS-Origin-2-Comets/issues",
+    "manual": "https://github.com/CharonSSS/RSS-Origin-2/wiki"
+  },
+  "tags": [
+    "config",
+    "planet-pack"
+  ],
+  "depends": [
+    {
+      "name": "RSSOrigin2-Core"
+    }
+  ],
+  "install": [
+    {
+      "file": "GameData/RSSOrigin2",
+      "install_to": "GameData"
+    }
+  ],
+  "download": "https://github.com/CharonSSS/RSS-Origin-2-Comets/releases/download/v1.0.1/RSSOrigin2-Comets.zip",
+  "download_size": 385002371,
+  "download_hash": {
+    "sha1": "191B30888235ADBBBFBBB1582D3F3977391E4119",
+    "sha256": "C3464F96EBBE41F1D0BB8D7EF710B71DB4E1D12AB1916D673C0EAEC04D92E22B"
+  },
+  "download_content_type": "application/zip",
+  "install_size": 528477232,
+  "release_date": "2026-05-28T16:09:42Z",
+  "x_generated_by": "rkan/0.3.0"
+}
