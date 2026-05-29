@@ -6,7 +6,7 @@ license = "CC-BY-NC-SA-4.0"
 authors = ["Charon_S"]
 ksp_version = "1.12"
 repo = "CharonSSS/RSS-Origin-2-MissionPack-DESTINYplus"
-asset_match = "RSSOrigin2-MissionPack-DESTINY+.zip"
+asset_match = "RSSOrigin2-MissionPack-DESTINYplus.zip"
 
 [resources]
 manual = "https://github.com/CharonSSS/RSS-Origin-2/wiki"
