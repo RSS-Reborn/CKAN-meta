@@ -1,0 +1,71 @@
+name: Check
+
+on:
+  pull_request:
+    paths:
+      - 'configs/**/*.toml'
+
+permissions:
+  contents: read
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Need history back to the base commit so we can diff the PR.
+          fetch-depth: 0
+
+      - name: Determine changed formulas
+        id: changed
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          set -euo pipefail
+          # Added/Copied/Modified/Renamed config files (skip deletions: there is
+          # nothing left to generate for a removed formula).
+          # Use git's :(glob) pathspec magic so '**' spans zero-or-more
+          # directories; the default pathspec syntax would miss files sitting
+          # directly in configs/ (e.g. configs/Sol-SPVE.toml).
+          mapfile -t files < <(git diff --name-only --diff-filter=ACMR "$BASE_SHA" HEAD -- ':(glob)configs/**/*.toml')
+
+          ids=()
+          for f in "${files[@]}"; do
+            # rkan's generate filter is an exact match on the formula's
+            # identifier, so read it from the file rather than the filename.
+            id=$(grep -m1 -E '^\s*identifier\s*=' "$f" | sed -E 's/^\s*identifier\s*=\s*"([^"]+)".*/\1/')
+            if [ -n "$id" ]; then
+              ids+=("$id")
+            else
+              echo "::warning file=$f::no identifier found, skipping"
+            fi
+          done
+
+          echo "Changed formulas: ${ids[*]:-<none>}"
+          echo "count=${#ids[@]}" >> "$GITHUB_OUTPUT"
+          {
+            echo "ids<<EOF"
+            if [ "${#ids[@]}" -gt 0 ]; then printf '%s\n' "${ids[@]}"; fi
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Install cargo-binstall
+        if: steps.changed.outputs.count != '0'
+        uses: cargo-bins/cargo-binstall@main
+
+      - name: Install rkan
+        if: steps.changed.outputs.count != '0'
+        run: cargo binstall --no-confirm rkan
+
+      - name: Run rkan generate
+        if: steps.changed.outputs.count != '0'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          mapfile -t ids <<< "${{ steps.changed.outputs.ids }}"
+          # Regenerate only the changed formulas to verify they generate
+          # cleanly. The metadata is committed by the post-merge job, not here.
+          rkan generate -j 4 "${ids[@]}"
