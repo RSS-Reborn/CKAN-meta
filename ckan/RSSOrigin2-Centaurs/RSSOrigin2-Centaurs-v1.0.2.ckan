@@ -1,0 +1,44 @@
+{
+  "spec_version": "v1.34",
+  "identifier": "RSSOrigin2-Centaurs",
+  "name": "RSS-Origin 2 - Centaurs",
+  "abstract": "This pack includes 8 Centaurs and 2 moons: Hidalgo | Chiron | Pholus | Chariklo | Typhon, Echidna | Ceto, Phorcys | 2002 GZ32 | Kaʻepaokaʻāwela.",
+  "author": [
+    "Charon_S"
+  ],
+  "version": "v1.0.2",
+  "ksp_version": "1.12",
+  "license": "CC-BY-NC-SA-4.0",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "https://github.com/CharonSSS/RSS-Origin-2",
+    "repository": "https://github.com/CharonSSS/RSS-Origin-2-Centaurs",
+    "bugtracker": "https://github.com/CharonSSS/RSS-Origin-2-Centaurs/issues",
+    "manual": "https://github.com/CharonSSS/RSS-Origin-2/wiki"
+  },
+  "tags": [
+    "config",
+    "planet-pack"
+  ],
+  "depends": [
+    {
+      "name": "RSSOrigin2-Core"
+    }
+  ],
+  "install": [
+    {
+      "file": "GameData/RSSOrigin2",
+      "install_to": "GameData"
+    }
+  ],
+  "download": "https://github.com/CharonSSS/RSS-Origin-2-Centaurs/releases/download/v1.0.2/RSSOrigin2-Centaurs.zip",
+  "download_size": 471339425,
+  "download_hash": {
+    "sha1": "5352A6861A94669C13E088D6C5E4E03A01027AF1",
+    "sha256": "5B981D8166317DBF151290578C15761A543EB7DCDF83A707A6E7C006886B0FA3"
+  },
+  "download_content_type": "application/zip",
+  "install_size": 690583928,
+  "release_date": "2026-06-03T09:48:40Z",
+  "x_generated_by": "rkan/0.3.0"
+}

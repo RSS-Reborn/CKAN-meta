@@ -1,0 +1,49 @@
+{
+  "spec_version": "v1.34",
+  "identifier": "RSSOrigin2-MissionPack-OSIRISREx",
+  "name": "RSS-Origin 2 - MissionPack-OSIRISREx",
+  "abstract": "This pack includes 2 objects for the OSIRIS-REx and OSIRIS-APEX mission: Bennu | Apophis.",
+  "author": [
+    "Charon_S"
+  ],
+  "version": "v1.0.1",
+  "ksp_version": "1.12",
+  "license": "CC-BY-NC-SA-4.0",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "https://github.com/CharonSSS/RSS-Origin-2",
+    "repository": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-OSIRISREx",
+    "bugtracker": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-OSIRISREx/issues",
+    "manual": "https://github.com/CharonSSS/RSS-Origin-2/wiki"
+  },
+  "tags": [
+    "config",
+    "planet-pack"
+  ],
+  "depends": [
+    {
+      "name": "RSSOrigin2-Core"
+    }
+  ],
+  "conflicts": [
+    {
+      "name": "RSSOrigin2-NearEarthObjects-SizeI"
+    }
+  ],
+  "install": [
+    {
+      "file": "GameData/RSSOrigin2",
+      "install_to": "GameData"
+    }
+  ],
+  "download": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-OSIRISREx/releases/download/v1.0.1/RSSOrigin2-MissionPack-OSIRISREx.zip",
+  "download_size": 69320665,
+  "download_hash": {
+    "sha1": "010ED14FBE05E5F30A2818BDCEA6066C4D1EBB1D",
+    "sha256": "05FCE5A1DC21EF07A9B0D32280D4E44DCA0D69F7F0C58D6EBFE78D25F590E434"
+  },
+  "download_content_type": "application/zip",
+  "install_size": 100685645,
+  "release_date": "2026-06-03T12:19:25Z",
+  "x_generated_by": "rkan/0.3.0"
+}

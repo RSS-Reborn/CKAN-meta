@@ -1,0 +1,44 @@
+{
+  "spec_version": "v1.34",
+  "identifier": "RSSOrigin2-JupiterMoons",
+  "name": "RSS-Origin 2 - JupiterMoons",
+  "abstract": "This pack includes 10 extra moons for Jupiter: Amalthea | Himalia | Elara | Pasiphae | Carme | Ananke | Thebe | Adrastea | Metis | Themisto.",
+  "author": [
+    "Charon_S"
+  ],
+  "version": "v1.0.2",
+  "ksp_version": "1.12",
+  "license": "CC-BY-NC-SA-4.0",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "https://github.com/CharonSSS/RSS-Origin-2",
+    "repository": "https://github.com/CharonSSS/RSS-Origin-2-JupiterMoons",
+    "bugtracker": "https://github.com/CharonSSS/RSS-Origin-2-JupiterMoons/issues",
+    "manual": "https://github.com/CharonSSS/RSS-Origin-2/wiki"
+  },
+  "tags": [
+    "config",
+    "planet-pack"
+  ],
+  "depends": [
+    {
+      "name": "RSSOrigin2-Core"
+    }
+  ],
+  "install": [
+    {
+      "file": "GameData/RSSOrigin2",
+      "install_to": "GameData"
+    }
+  ],
+  "download": "https://github.com/CharonSSS/RSS-Origin-2-JupiterMoons/releases/download/v1.0.2/RSSOrigin2-JupiterMoons.zip",
+  "download_size": 291913190,
+  "download_hash": {
+    "sha1": "8B03B7F399154D1F9C97236FA514181C6D3C8014",
+    "sha256": "2128EC7D9516CBC2D19991F0B539A859C3D6141D915EA0F8CF9271925925A713"
+  },
+  "download_content_type": "application/zip",
+  "install_size": 400422106,
+  "release_date": "2026-06-03T09:26:18Z",
+  "x_generated_by": "rkan/0.3.0"
+}

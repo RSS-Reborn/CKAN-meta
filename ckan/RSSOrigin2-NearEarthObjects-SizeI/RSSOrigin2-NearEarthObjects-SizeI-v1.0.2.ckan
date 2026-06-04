@@ -1,0 +1,44 @@
+{
+  "spec_version": "v1.34",
+  "identifier": "RSSOrigin2-NearEarthObjects-SizeI",
+  "name": "RSS-Origin 2 - NearEarthObjects-SizeI",
+  "abstract": "This pack includes 18 NEOs with diameter < 2km and 6 moons: Amor | Icarus | Apollo, S/2005 (1862) 1 | Talos | Itokawa | YORP | Didymos, Dimorphos | Bennu | 1994 CC, S/2009 (136617) 1, S/2009 (136617) 2 | 2001 WN5 | Ryugu | Kamoʻoalewa | 2005 HC4 | Aten | Moshup, Squannit | Apophis | Duende | Zoozve | ꞌAylóꞌchaxnim.",
+  "author": [
+    "Charon_S"
+  ],
+  "version": "v1.0.2",
+  "ksp_version": "1.12",
+  "license": "CC-BY-NC-SA-4.0",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "https://github.com/CharonSSS/RSS-Origin-2",
+    "repository": "https://github.com/CharonSSS/RSS-Origin-2-NearEarthObjects",
+    "bugtracker": "https://github.com/CharonSSS/RSS-Origin-2-NearEarthObjects/issues",
+    "manual": "https://github.com/CharonSSS/RSS-Origin-2/wiki"
+  },
+  "tags": [
+    "config",
+    "planet-pack"
+  ],
+  "depends": [
+    {
+      "name": "RSSOrigin2-Core"
+    }
+  ],
+  "install": [
+    {
+      "file": "GameData/RSSOrigin2",
+      "install_to": "GameData"
+    }
+  ],
+  "download": "https://github.com/CharonSSS/RSS-Origin-2-NearEarthObjects/releases/download/v1.0.2/RSSOrigin2-NearEarthObjects-SizeI.zip",
+  "download_size": 565158404,
+  "download_hash": {
+    "sha1": "B1E564660B74DAF8B93FFCBF8143020AA0784FA5",
+    "sha256": "E979C4F30279025579B7856C6CCC665C48A50C4C1CA443172806DA1157204531"
+  },
+  "download_content_type": "application/zip",
+  "install_size": 813853604,
+  "release_date": "2026-06-03T09:32:56Z",
+  "x_generated_by": "rkan/0.3.0"
+}

@@ -1,0 +1,44 @@
+{
+  "spec_version": "v1.34",
+  "identifier": "RSSOrigin2-TransNeptunianObjects-SizeII",
+  "name": "RSS-Origin 2 - TransNeptunianObjects-SizeII",
+  "abstract": "This pack includes 13 TNOs with diameter > 500km and 7 moons: Varuna, Varuna II | Aya | Uni, Tinia | Salacia, Actaea | Varda, Ilmarë | Máni | 2012 VP113 | 2017 OF201 | Ixion | Achlys, S/2005 (208996) 1 | Gǃkúnǁʼhòmdímà, Gǃòʼé ǃHú | Dziewanna | Chiminigagua, S/2018 (532037) 1.",
+  "author": [
+    "Charon_S"
+  ],
+  "version": "v1.0.2",
+  "ksp_version": "1.12",
+  "license": "CC-BY-NC-SA-4.0",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "https://github.com/CharonSSS/RSS-Origin-2",
+    "repository": "https://github.com/CharonSSS/RSS-Origin-2-TransNeptunianObjects",
+    "bugtracker": "https://github.com/CharonSSS/RSS-Origin-2-TransNeptunianObjects/issues",
+    "manual": "https://github.com/CharonSSS/RSS-Origin-2/wiki"
+  },
+  "tags": [
+    "config",
+    "planet-pack"
+  ],
+  "depends": [
+    {
+      "name": "RSSOrigin2-Core"
+    }
+  ],
+  "install": [
+    {
+      "file": "GameData/RSSOrigin2",
+      "install_to": "GameData"
+    }
+  ],
+  "download": "https://github.com/CharonSSS/RSS-Origin-2-TransNeptunianObjects/releases/download/v1.0.2/RSSOrigin2-TransNeptunianObjects-SizeII.zip",
+  "download_size": 1802439071,
+  "download_hash": {
+    "sha1": "998091FB48B582BB2C8C87268B499FAEC81ED7D0",
+    "sha256": "E3273927D72D2F3F16ADFEC9962FFFB5DAEED20B97E7CD3F54A200DC78438033"
+  },
+  "download_content_type": "application/zip",
+  "install_size": 2468276070,
+  "release_date": "2026-06-03T09:51:55Z",
+  "x_generated_by": "rkan/0.3.0"
+}

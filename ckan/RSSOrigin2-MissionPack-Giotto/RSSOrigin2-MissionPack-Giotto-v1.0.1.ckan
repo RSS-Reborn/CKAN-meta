@@ -1,0 +1,49 @@
+{
+  "spec_version": "v1.34",
+  "identifier": "RSSOrigin2-MissionPack-Giotto",
+  "name": "RSS-Origin 2 - MissionPack-Giotto",
+  "abstract": "This pack includes 2 objects for the Giotto mission: 1P/Halley | 26P/Grigg–Skjellerup.",
+  "author": [
+    "Charon_S"
+  ],
+  "version": "v1.0.1",
+  "ksp_version": "1.12",
+  "license": "CC-BY-NC-SA-4.0",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "https://github.com/CharonSSS/RSS-Origin-2",
+    "repository": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-Giotto",
+    "bugtracker": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-Giotto/issues",
+    "manual": "https://github.com/CharonSSS/RSS-Origin-2/wiki"
+  },
+  "tags": [
+    "config",
+    "planet-pack"
+  ],
+  "depends": [
+    {
+      "name": "RSSOrigin2-Core"
+    }
+  ],
+  "conflicts": [
+    {
+      "name": "RSSOrigin2-Comets"
+    }
+  ],
+  "install": [
+    {
+      "file": "GameData/RSSOrigin2",
+      "install_to": "GameData"
+    }
+  ],
+  "download": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-Giotto/releases/download/v1.0.1/RSSOrigin2-MissionPack-Giotto.zip",
+  "download_size": 39962392,
+  "download_hash": {
+    "sha1": "8CE38D047A314275F0F3999760DEE6F0D88F6841",
+    "sha256": "EE3A0FABFB70E67223B41DC09034BD093FB46DDF5E35558D894D614E8C56CD59"
+  },
+  "download_content_type": "application/zip",
+  "install_size": 58301975,
+  "release_date": "2026-06-03T12:18:25Z",
+  "x_generated_by": "rkan/0.3.0"
+}

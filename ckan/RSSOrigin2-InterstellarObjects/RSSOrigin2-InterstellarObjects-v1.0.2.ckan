@@ -1,0 +1,44 @@
+{
+  "spec_version": "v1.34",
+  "identifier": "RSSOrigin2-InterstellarObjects",
+  "name": "RSS-Origin 2 - InterstellarObjects",
+  "abstract": "This pack includes 3 Interstellar objects: 1I/ʻOumuamua | 2I/Borisov | 3I/ATLAS.",
+  "author": [
+    "Charon_S"
+  ],
+  "version": "v1.0.2",
+  "ksp_version": "1.12",
+  "license": "CC-BY-NC-SA-4.0",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "https://github.com/CharonSSS/RSS-Origin-2",
+    "repository": "https://github.com/CharonSSS/RSS-Origin-2-InterstellarObjects",
+    "bugtracker": "https://github.com/CharonSSS/RSS-Origin-2-InterstellarObjects/issues",
+    "manual": "https://github.com/CharonSSS/RSS-Origin-2/wiki"
+  },
+  "tags": [
+    "config",
+    "planet-pack"
+  ],
+  "depends": [
+    {
+      "name": "RSSOrigin2-Core"
+    }
+  ],
+  "install": [
+    {
+      "file": "GameData/RSSOrigin2",
+      "install_to": "GameData"
+    }
+  ],
+  "download": "https://github.com/CharonSSS/RSS-Origin-2-InterstellarObjects/releases/download/v1.0.2/RSSOrigin2-InterstellarObjects.zip",
+  "download_size": 59246845,
+  "download_hash": {
+    "sha1": "6DE85E24D17A3F0CAAD45251C1876830F2C5C8AE",
+    "sha256": "0F6DA4E326A285E0BDA7CB2C728AC4EFBCAD79458208A8ABC1585E13900D96DA"
+  },
+  "download_content_type": "application/zip",
+  "install_size": 81640792,
+  "release_date": "2026-06-03T09:39:30Z",
+  "x_generated_by": "rkan/0.3.0"
+}

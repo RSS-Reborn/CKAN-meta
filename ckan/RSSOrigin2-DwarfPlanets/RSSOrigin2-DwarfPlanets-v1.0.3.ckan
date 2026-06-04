@@ -1,0 +1,44 @@
+{
+  "spec_version": "v1.34",
+  "identifier": "RSSOrigin2-DwarfPlanets",
+  "name": "RSS-Origin 2 - DwarfPlanets",
+  "abstract": "This pack includes 7 Dwarf planets and 12 Dwarf planet moons: Quaoar, Weywot, Quaoar II | Sedna | Orcus, Vanth | Nix, Hydra, Kerberos, Styx | Haumea, Hiʻiaka, Namaka | Eris, Dysnomia | Makemake, S/2015 (136472) 1 | Gonggong, Xiangliu.",
+  "author": [
+    "Charon_S"
+  ],
+  "version": "v1.0.3",
+  "ksp_version": "1.12",
+  "license": "CC-BY-NC-SA-4.0",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "https://github.com/CharonSSS/RSS-Origin-2",
+    "repository": "https://github.com/CharonSSS/RSS-Origin-2-DwarfPlanets",
+    "bugtracker": "https://github.com/CharonSSS/RSS-Origin-2-DwarfPlanets/issues",
+    "manual": "https://github.com/CharonSSS/RSS-Origin-2/wiki"
+  },
+  "tags": [
+    "config",
+    "planet-pack"
+  ],
+  "depends": [
+    {
+      "name": "RSSOrigin2-Core"
+    }
+  ],
+  "install": [
+    {
+      "file": "GameData/RSSOrigin2",
+      "install_to": "GameData"
+    }
+  ],
+  "download": "https://github.com/CharonSSS/RSS-Origin-2-DwarfPlanets/releases/download/v1.0.3/RSSOrigin2-DwarfPlanets.zip",
+  "download_size": 1347197073,
+  "download_hash": {
+    "sha1": "1EAB759377766A6203D4556B1EC403CF2A9A8B05",
+    "sha256": "6CA39E39C4333CDFC2B041BD3B1A0DE56C368BCD6CE308638C84AF7506096AC8"
+  },
+  "download_content_type": "application/zip",
+  "install_size": 1803111540,
+  "release_date": "2026-06-03T09:41:08Z",
+  "x_generated_by": "rkan/0.3.0"
+}

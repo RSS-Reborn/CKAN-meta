@@ -1,0 +1,52 @@
+{
+  "spec_version": "v1.34",
+  "identifier": "RSSOrigin2-MissionPack-Stardust",
+  "name": "RSS-Origin 2 - MissionPack-Stardust",
+  "abstract": "This pack includes 3 objects for the Stardust mission: Annefrank | 9P/Tempel 1 | 81P/Wild 2.",
+  "author": [
+    "Charon_S"
+  ],
+  "version": "v1.0.1",
+  "ksp_version": "1.12",
+  "license": "CC-BY-NC-SA-4.0",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "https://github.com/CharonSSS/RSS-Origin-2",
+    "repository": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-Stardust",
+    "bugtracker": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-Stardust/issues",
+    "manual": "https://github.com/CharonSSS/RSS-Origin-2/wiki"
+  },
+  "tags": [
+    "config",
+    "planet-pack"
+  ],
+  "depends": [
+    {
+      "name": "RSSOrigin2-Core"
+    }
+  ],
+  "conflicts": [
+    {
+      "name": "RSSOrigin2-Comets"
+    },
+    {
+      "name": "RSSOrigin2-MainBeltAsteroids-SizeI"
+    }
+  ],
+  "install": [
+    {
+      "file": "GameData/RSSOrigin2",
+      "install_to": "GameData"
+    }
+  ],
+  "download": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-Stardust/releases/download/v1.0.1/RSSOrigin2-MissionPack-Stardust.zip",
+  "download_size": 32111117,
+  "download_hash": {
+    "sha1": "CC8EB87E5E7EA5EF6ADB3C54F5F30FE4A8325E20",
+    "sha256": "4585137AC4A53C9C559C4DC5DF067CBC823C135D8D089BC917EE3C0195C3933A"
+  },
+  "download_content_type": "application/zip",
+  "install_size": 41260051,
+  "release_date": "2026-06-03T12:19:14Z",
+  "x_generated_by": "rkan/0.3.0"
+}

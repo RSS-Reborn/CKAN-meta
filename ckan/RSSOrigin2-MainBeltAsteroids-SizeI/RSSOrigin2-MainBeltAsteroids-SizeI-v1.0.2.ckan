@@ -1,0 +1,44 @@
+{
+  "spec_version": "v1.34",
+  "identifier": "RSSOrigin2-MainBeltAsteroids-SizeI",
+  "name": "RSS-Origin 2 - MainBeltAsteroids-SizeI",
+  "abstract": "This pack includes 18 MBAs with diameter < 100km and 6 moons: Lutetia | Virginia | Antiope, S/2000 (90) 1 | Rosa | Ida, Dactyl | Mathilde | Nike | Gaspra | Masursky | Šteins | Balam, S/2002 (3749) 1, S/2007 (3749) 1 | Annefrank | Bro | Scottmanley | Donaldjohanson | APL | Dinkinesh, Selam | 2006 VW139, S/2011 (300163) 1.",
+  "author": [
+    "Charon_S"
+  ],
+  "version": "v1.0.2",
+  "ksp_version": "1.12",
+  "license": "CC-BY-NC-SA-4.0",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "https://github.com/CharonSSS/RSS-Origin-2",
+    "repository": "https://github.com/CharonSSS/RSS-Origin-2-MainBeltAsteroids",
+    "bugtracker": "https://github.com/CharonSSS/RSS-Origin-2-MainBeltAsteroids/issues",
+    "manual": "https://github.com/CharonSSS/RSS-Origin-2/wiki"
+  },
+  "tags": [
+    "config",
+    "planet-pack"
+  ],
+  "depends": [
+    {
+      "name": "RSSOrigin2-Core"
+    }
+  ],
+  "install": [
+    {
+      "file": "GameData/RSSOrigin2",
+      "install_to": "GameData"
+    }
+  ],
+  "download": "https://github.com/CharonSSS/RSS-Origin-2-MainBeltAsteroids/releases/download/v1.0.2/RSSOrigin2-MainBeltAsteroids-SizeI.zip",
+  "download_size": 547156511,
+  "download_hash": {
+    "sha1": "FB22CDD877C5C320463A82528D7BC4292F8897F8",
+    "sha256": "F5C8D56C0A0E61BE351BF536ADDE36A013FE00F6570E2E1DB53176ED4413905B"
+  },
+  "download_content_type": "application/zip",
+  "install_size": 743164491,
+  "release_date": "2026-06-03T09:40:45Z",
+  "x_generated_by": "rkan/0.3.0"
+}

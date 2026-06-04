@@ -1,0 +1,52 @@
+{
+  "spec_version": "v1.34",
+  "identifier": "RSSOrigin2-MissionPack-Lucy",
+  "name": "RSS-Origin 2 - MissionPack-Lucy",
+  "abstract": "This pack includes 11 objects for the Lucy mission: Patroclus, Menoetius | Eurybates, Queta | Leucus | Polymele, S/2022 (15094) 1 | Orus | Donaldjohanson | Dinkinesh, Selam.",
+  "author": [
+    "Charon_S"
+  ],
+  "version": "v1.0.1",
+  "ksp_version": "1.12",
+  "license": "CC-BY-NC-SA-4.0",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "https://github.com/CharonSSS/RSS-Origin-2",
+    "repository": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-Lucy",
+    "bugtracker": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-Lucy/issues",
+    "manual": "https://github.com/CharonSSS/RSS-Origin-2/wiki"
+  },
+  "tags": [
+    "config",
+    "planet-pack"
+  ],
+  "depends": [
+    {
+      "name": "RSSOrigin2-Core"
+    }
+  ],
+  "conflicts": [
+    {
+      "name": "RSSOrigin2-MainBeltAsteroids-SizeI"
+    },
+    {
+      "name": "RSSOrigin2-JupiterTrojans"
+    }
+  ],
+  "install": [
+    {
+      "file": "GameData/RSSOrigin2",
+      "install_to": "GameData"
+    }
+  ],
+  "download": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-Lucy/releases/download/v1.0.1/RSSOrigin2-MissionPack-Lucy.zip",
+  "download_size": 212469361,
+  "download_hash": {
+    "sha1": "9E5CE6011BE95B4F940F159AE913406CFBA76ACC",
+    "sha256": "973F565072FE882EBD15E8E794E216C78625E2B8E307FF9B639EEB3624085809"
+  },
+  "download_content_type": "application/zip",
+  "install_size": 312360022,
+  "release_date": "2026-06-03T12:19:44Z",
+  "x_generated_by": "rkan/0.3.0"
+}

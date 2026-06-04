@@ -1,0 +1,44 @@
+{
+  "spec_version": "v1.34",
+  "identifier": "RSSOrigin2-JupiterTrojans",
+  "name": "RSS-Origin 2 - JupiterTrojans",
+  "abstract": "This pack includes 6 Jupiter trojans and 4 moons: Patroclus, Menoetius | Hektor, Skamandrios | Eurybates, Queta | Leucus | Polymele, S/2022 (15094) 1 | Orus.",
+  "author": [
+    "Charon_S"
+  ],
+  "version": "v1.0.2",
+  "ksp_version": "1.12",
+  "license": "CC-BY-NC-SA-4.0",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "https://github.com/CharonSSS/RSS-Origin-2",
+    "repository": "https://github.com/CharonSSS/RSS-Origin-2-JupiterTrojans",
+    "bugtracker": "https://github.com/CharonSSS/RSS-Origin-2-JupiterTrojans/issues",
+    "manual": "https://github.com/CharonSSS/RSS-Origin-2/wiki"
+  },
+  "tags": [
+    "config",
+    "planet-pack"
+  ],
+  "depends": [
+    {
+      "name": "RSSOrigin2-Core"
+    }
+  ],
+  "install": [
+    {
+      "file": "GameData/RSSOrigin2",
+      "install_to": "GameData"
+    }
+  ],
+  "download": "https://github.com/CharonSSS/RSS-Origin-2-JupiterTrojans/releases/download/v1.0.2/RSSOrigin2-JupiterTrojans.zip",
+  "download_size": 307263386,
+  "download_hash": {
+    "sha1": "EDD92FFCC93EB6A39012F6D3A5E7C5447401EF71",
+    "sha256": "9C5EB41AECF57F9E41FB5A56B72AF23696D10C9717144BCF833B03504F2ECB08"
+  },
+  "download_content_type": "application/zip",
+  "install_size": 438567740,
+  "release_date": "2026-06-03T09:47:42Z",
+  "x_generated_by": "rkan/0.3.0"
+}

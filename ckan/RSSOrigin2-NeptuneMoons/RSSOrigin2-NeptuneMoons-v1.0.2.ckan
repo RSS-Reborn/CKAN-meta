@@ -1,0 +1,44 @@
+{
+  "spec_version": "v1.34",
+  "identifier": "RSSOrigin2-NeptuneMoons",
+  "name": "RSS-Origin 2 - NeptuneMoons",
+  "abstract": "This pack includes 13 extra moons for Neptune: Nereid | Naiad | Thalassa | Despina | Galatea | Larissa | Proteus | Halimede | Psamathe | Sao | Laomedeia | Neso | Hippocamp.",
+  "author": [
+    "Charon_S"
+  ],
+  "version": "v1.0.2",
+  "ksp_version": "1.12",
+  "license": "CC-BY-NC-SA-4.0",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "https://github.com/CharonSSS/RSS-Origin-2",
+    "repository": "https://github.com/CharonSSS/RSS-Origin-2-NeptuneMoons",
+    "bugtracker": "https://github.com/CharonSSS/RSS-Origin-2-NeptuneMoons/issues",
+    "manual": "https://github.com/CharonSSS/RSS-Origin-2/wiki"
+  },
+  "tags": [
+    "config",
+    "planet-pack"
+  ],
+  "depends": [
+    {
+      "name": "RSSOrigin2-Core"
+    }
+  ],
+  "install": [
+    {
+      "file": "GameData/RSSOrigin2",
+      "install_to": "GameData"
+    }
+  ],
+  "download": "https://github.com/CharonSSS/RSS-Origin-2-NeptuneMoons/releases/download/v1.0.2/RSSOrigin2-NeptuneMoons.zip",
+  "download_size": 463110138,
+  "download_hash": {
+    "sha1": "E6527D5B60B6B419F12435694A48C46270998651",
+    "sha256": "757F62927E4474295350855CC9E930AEB0C7C3A44BDE731612FF9CAEEB0BA2EA"
+  },
+  "download_content_type": "application/zip",
+  "install_size": 613942386,
+  "release_date": "2026-06-03T09:28:55Z",
+  "x_generated_by": "rkan/0.3.0"
+}

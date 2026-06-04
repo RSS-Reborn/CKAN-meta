@@ -1,0 +1,49 @@
+{
+  "spec_version": "v1.34",
+  "identifier": "RSSOrigin2-MissionPack-ISEE3-ICE",
+  "name": "RSS-Origin 2 - MissionPack-ISEE3-ICE",
+  "abstract": "This pack includes 2 objects for the ISEE-3/ICE mission: 1P/Halley | 21P/Giacobini–Zinner.",
+  "author": [
+    "Charon_S"
+  ],
+  "version": "v1.0.1",
+  "ksp_version": "1.12",
+  "license": "CC-BY-NC-SA-4.0",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "https://github.com/CharonSSS/RSS-Origin-2",
+    "repository": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-ISEE3-ICE",
+    "bugtracker": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-ISEE3-ICE/issues",
+    "manual": "https://github.com/CharonSSS/RSS-Origin-2/wiki"
+  },
+  "tags": [
+    "config",
+    "planet-pack"
+  ],
+  "depends": [
+    {
+      "name": "RSSOrigin2-Core"
+    }
+  ],
+  "conflicts": [
+    {
+      "name": "RSSOrigin2-Comets"
+    }
+  ],
+  "install": [
+    {
+      "file": "GameData/RSSOrigin2",
+      "install_to": "GameData"
+    }
+  ],
+  "download": "https://github.com/CharonSSS/RSS-Origin-2-MissionPack-ISEE3-ICE/releases/download/v1.0.1/RSSOrigin2-MissionPack-ISEE3-ICE.zip",
+  "download_size": 40119833,
+  "download_hash": {
+    "sha1": "2B25C4D83766FEAD665EF3D93F83E552F119D5F1",
+    "sha256": "5958CC2308E61A8F5072741A2AFD578C72B5BEBD0E117B7F6BE8CA3499D6E798"
+  },
+  "download_content_type": "application/zip",
+  "install_size": 58305742,
+  "release_date": "2026-06-03T12:18:41Z",
+  "x_generated_by": "rkan/0.3.0"
+}
