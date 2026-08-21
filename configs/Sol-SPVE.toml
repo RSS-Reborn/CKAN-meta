@@ -6,7 +6,7 @@ license = "CC-BY-NC-4.0"
 authors = ["rbeap"]
 ksp_version = "1.12"
 repo = "rbeap/Sol-SPVE"
-asset_match = "Sol-SPVE-.*\\.zip"
+asset_match = "Sol-SPVE.*\\.zip"
 
 [resources]
 homepage = "https://github.com/rbeap/Sol-SPVE"
