@@ -9,7 +9,7 @@
   "version": "v1.0.34",
   "ksp_version": "1.12",
   "license": "restricted",
-  "release_status": "stable",
+  "release_status": "development",
   "resources": {
     "homepage": "https://github.com/Phantomical/KSPTextureLoader",
     "repository": "https://github.com/Phantomical/KSPTextureLoader",
