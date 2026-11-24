@@ -18,6 +18,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Setup RKAN cache
+        uses: actions/cache@v6
+        with:
+          path: ~/.cache/rkan/artifacts
+          key: rkan-artifacts-${{ hashFiles('configs/**/*') }}
+          restore-keys: |
+            rkan-artifacts-${{ hashFiles('configs/**/*') }}
+            rkan-artifacts-
+
       - name: Install cargo-binstall
         uses: cargo-bins/cargo-binstall@main
 
